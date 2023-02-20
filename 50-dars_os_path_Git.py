@@ -137,8 +137,6 @@ import os.path
 
 #   git remote remove origin // repazitoriyga qoygan urlmizni o'chirib yuboradi
 
-34
-
 
 
 

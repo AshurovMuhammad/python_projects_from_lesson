@@ -1,4 +1,6 @@
 # GitHub  // 25 - dars
+# Git -> local repozitoriya
+# GitHub -> удаленный repozitoriya
 #   GitHub da registratsiyadan o'tamiz
 #   Settings -> Developer settings -> Personal access tokens
 #   win + r -> control

@@ -135,6 +135,7 @@ import os.path
 #       kelishilgan xolda bittasini o'chirib yuborish mumkin. Bizni xolatda readme shox(ветка)ni
 #       o'chirib yuboramiz.
 
+#   git remote remove origin // repazitoriyga qoygan urlmizni o'chirib yuboradi
 
 
 

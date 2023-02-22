@@ -1,5 +1,5 @@
 # OOП Obyektlarga yo'naltirilgan dasturlash   // 26
-# OOPda 3 ta paradima mavjud
+# OOPda 3 ta paradigma mavjud
 #   1) inkapsulyatsiya
 #   2) vorislik
 #   3) polimorfizm

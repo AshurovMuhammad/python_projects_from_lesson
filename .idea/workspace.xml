@@ -1,10 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a38b738d-3636-4955-8ccb-910109812190" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/53-dars_Inkapsulyatsiya.py" afterDir="false" />
+    <list default="true" id="001a0e22-9a4f-40d3-a74a-f692ee83bc2e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/54-dars_ООП_Cтатические_методы_Incapsulyatsiya.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/55-dars_ООП_Статические_методы_и_методы_класса_Vorislik.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/56-dars_ООП_Наследование,Создание_и_управление_поведением_экземпляров_класса.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/57-dars_ООП_Принципы_Проектирование_Классов_SOLID,Обзор проблем.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/58-dars_ООП_Интерфейс,Связанные_списки.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/59-dars_ООП_Классы,Перегрузка_операторов,Продолжения.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/60-dars_ООП_Перегрузка_операторов,Продолжение.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/61-dars_ООП_Полиморфизм,Функторы.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/62-dars_Модуллар_билан_ишлаш/62-dars_Модуль_pickle,Модуль_json.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/62-dars_Модуллар_билан_ишлаш/car/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/62-dars_Модуллар_билан_ишлаш/car/carclass.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/62-dars_Модуллар_билан_ишлаш/car/electrocar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/62-dars_Модуллар_билан_ишлаш/geometry/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/62-dars_Модуллар_билан_ишлаш/geometry/rect.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/62-dars_Модуллар_билан_ишлаш/geometry/sq.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/62-dars_Модуллар_билан_ишлаш/geometry/trian.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/62-dars_Модуллар_билан_ишлаш/shape/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/62-dars_Модуллар_билан_ишлаш/shape/circle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/62-dars_Модуллар_билан_ишлаш/shape/cylinder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/62-dars_Модуллар_билан_ишлаш/shape/rectangle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/63-dars_Сериализатсия_и_десериализатсия,Строенные_модули_сериализатции,Модуль_pickle,Модуль_json.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/64-dars_Цели_и_задачи_модульного_тестирования,Практика,Request.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/65-dars_csv formatidagi_fayllar_bilan_ishlash.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/66-dars_Beautifulsoup4,Requests,Парсинг_сайтов.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/67-dars_Парсинг_сайта_продолжения,class_va_funcksiyalar_orqali_parsing_qilish/67-dars.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/67-dars_Парсинг_сайта_продолжения,class_va_funcksiyalar_orqali_parsing_qilish/parse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/68-dars_MVC,articles/68-dars.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/68-dars_MVC,articles/Countries/controller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/68-dars_MVC,articles/Countries/model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/68-dars_MVC,articles/Countries/project_manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/68-dars_MVC,articles/Countries/view.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/68-dars_MVC,articles/auto/controller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/68-dars_MVC,articles/auto/model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/68-dars_MVC,articles/auto/project_aoto.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/68-dars_MVC,articles/auto/view.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/68-dars_MVC,articles/controller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/68-dars_MVC,articles/model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/68-dars_MVC,articles/project_articles.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/68-dars_MVC,articles/view.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/52-dars_OOП_kirish.py" beforeDir="false" afterPath="$PROJECT_DIR$/52-dars_OOП_kirish.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/27-dars_ShartliOperatorlar_va_UlarniSintaksis.py" beforeDir="false" afterPath="$PROJECT_DIR$/27-dars_ShartliOperatorlar_va_UlarniSintaksis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/29-dars_Ro'yxat(List).py" beforeDir="false" afterPath="$PROJECT_DIR$/29-dars_Ro'yxat(List).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/35-dars_Chiziqlar(Строки).py" beforeDir="false" afterPath="$PROJECT_DIR$/35-dars_Chiziqlar(Строки),ASCII.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/36-dars_ChiziqlarMetodlari_(МетодыСтрок).py" beforeDir="false" afterPath="$PROJECT_DIR$/36-dars_ChiziqlarMetodlari_(МетодыСтрок),re_moduli.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/38-dars_Funksiyalar_FunksiyadegiLokalVaGlobalO'zgaruvchilar.py" beforeDir="false" afterPath="$PROJECT_DIR$/38-dars_Funksiyalar_FunksiyadegiLokalVaGlobalO'zgaruvchilar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/40-dars_map()reduce()filter()zip()_Dekoratorlar.py" beforeDir="false" afterPath="$PROJECT_DIR$/40-dars_map()reduce()filter()zip()_Dekoratorlar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/53-dars_Inkapsulyatsiya.py" beforeDir="false" afterPath="$PROJECT_DIR$/53-dars_OOП_Inkapsulyatsiya.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +64,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Python Script" />
       </list>
     </option>
@@ -21,42 +72,49 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitSEFilterConfiguration">
-    <file-type-list>
-      <filtered-out-file-type name="LOCAL_BRANCH" />
-      <filtered-out-file-type name="REMOTE_BRANCH" />
-      <filtered-out-file-type name="TAG" />
-      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
-    </file-type-list>
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2L3Gsq0xdiq5bK6OvaENi0ejHPB" />
+  <component name="ProjectId" id="2MaWILhRCZ0RdapK6lb4UNc6NeZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
-  </component>
-  <component name="PyConsoleOptionsProvider">
-    <option name="myPythonConsoleState">
-      <console-settings>
-        <option name="useSoftWraps" value="true" />
-      </console-settings>
-    </option>
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Python+Django Lessons\Python\folder1\folder2\folder0" />
+      <recent name="E:\Python+Django Lessons\Python\articles" />
+      <recent name="E:\Python+Django Lessons\Python\67-dars" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.53-dars_Inkapsulyatsiya">
+  <component name="RunManager" selected="Python.project_aoto">
+    <configuration name="29-dars_Ro'yxat(List)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/29-dars_Ro'yxat(List).py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="40-dars_map()reduce()filter()zip()_Dekoratorlar" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -78,7 +136,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="48-dars_FayllarBilanIshlash_42-darsDavomi_os_va_path_modullari" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="project_aoto" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -86,11 +144,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/68-dars_MVC,articles/auto" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="E:\Python+Django Lessons\Python\48-dars_FayllarBilanIshlash_42-darsDavomi_os_va_path_modullari.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/68-dars_MVC,articles/auto/project_aoto.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -99,7 +157,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="50-dars_os_path_Git" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="project_articles (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -107,11 +165,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/68-dars_MVC,articles" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="E:\Python+Django Lessons\Python\50-dars_os_path_Git.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/68-dars_MVC,articles/project_articles.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -120,7 +178,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="52-dars_OOП_kirish" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="project_manager" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -128,32 +186,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/68-dars_MVC,articles/Countries" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/52-dars_OOП_kirish.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="53-dars_Inkapsulyatsiya" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/53-dars_Inkapsulyatsiya.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/68-dars_MVC,articles/Countries/project_manager.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -164,49 +201,23 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.53-dars_Inkapsulyatsiya" />
-        <item itemvalue="Python.52-dars_OOП_kirish" />
-        <item itemvalue="Python.50-dars_os_path_Git" />
-        <item itemvalue="Python.48-dars_FayllarBilanIshlash_42-darsDavomi_os_va_path_modullari" />
+        <item itemvalue="Python.project_aoto" />
+        <item itemvalue="Python.project_manager" />
+        <item itemvalue="Python.project_articles (1)" />
         <item itemvalue="Python.40-dars_map()reduce()filter()zip()_Dekoratorlar" />
+        <item itemvalue="Python.29-dars_Ro'yxat(List)" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a38b738d-3636-4955-8ccb-910109812190" name="Changes" comment="" />
-      <created>1675092561864</created>
+      <changelist id="001a0e22-9a4f-40d3-a74a-f692ee83bc2e" name="Changes" comment="" />
+      <created>1678006096041</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1675092561864</updated>
+      <updated>1678006096041</updated>
     </task>
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="master" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
 </project>

@@ -1,14 +1,5 @@
 # Funksiyadegi lokal va global o'zgaruvchilar
 
-# Lifehack
-# a = [1, 2, 3]
-# b = [a, 5, 6, 7]
-# print(b)
-
-# a = [1, 2, 3]
-# b = [*a, 5, 6, 7]
-# print(b)
-
 
 # def func(*args):
 #     return args

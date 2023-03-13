@@ -1,4 +1,31 @@
 # List
+
+# Lifehack
+# a = [1, 2, 3]
+# b = [a, 5, 6, 7]
+# print(b)
+
+# a = [1, 2, 3]
+# b = [*a, 5, 6, 7]
+# print(b)
+
+# dict_a = {
+#     "brand": "Ford",
+#     "name": "Mustang",
+#     "engine": 3.6,
+#     "color": "red"
+# }
+#
+# dict_b = {
+#     "brand": "Chevrolet",
+#     "name": "Malibu",
+#     "engine": 2.4,
+#     "color": "black"
+# }
+#
+# output = [*dict_a.values()]
+# print(output)
+
 # nims = [1, 2, 3, 4, 5]
 # print(type(nims))
 

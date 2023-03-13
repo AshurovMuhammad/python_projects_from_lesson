@@ -32,12 +32,12 @@
 # print("a = b" if a == b else "a > b" if a > b else "a < b")
 
 # try except
-# try:
-#     n = int(input("Raqam kiriting: "))
-#     print(n * 2)
-# except ValueError:
-#     print("Nimadir notog'ri")
-# print('Hello World!')
+try:
+    n = int(input("Raqam kiriting: "))
+    print(n * 2)
+except ValueError:
+    print("Nimadir notog'ri")
+print('Hello World!')
 
 # try:
 #     n = int(input("Birinchi raqamni kiriting: "))

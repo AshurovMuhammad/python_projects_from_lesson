@@ -195,27 +195,27 @@
 # print_full_name('Nazarov', 'Ali', 'Sobirovich')
 
 
-# def dec_func(arg1, arg2):
-#     print('Argumentlari:', arg1, arg2)
-#
-#     def wrapper(func1):
-#
-#         def wrap(func_arg1, func_arg2):
-#             print('Funksiya argumentlari:', func_arg1, func_arg2)
-#             func1(func_arg1, func_arg2)
-#             func1(arg1, arg2)
-#
-#         return wrap
-#
-#     return wrapper
-#
-#
-# @dec_func('Iqbol', 'Komolov')
-# def func(first, last):
-#     print('Mening ismim: ', first, last)
-#
-#
-# func('Ashurov', 'Muhammd')
+def dec_func(arg1, arg2):
+    print('Argumentlari:', arg1, arg2)
+
+    def wrapper(func1):
+
+        def wrap(func_arg1, func_arg2):
+            print('Funksiya argumentlari:', func_arg1, func_arg2)
+            func1(func_arg1, func_arg2)
+            func1(arg1, arg2)
+
+        return wrap
+
+    return wrapper
+
+
+@dec_func('Iqbol', 'Komolov')
+def func(first, last):
+    print('Mening ismim: ', first, last)
+
+
+func('Ashurov', 'Muhammd')
 
 
 # def args_decorator(decorator_text):

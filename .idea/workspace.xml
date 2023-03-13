@@ -1,61 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="001a0e22-9a4f-40d3-a74a-f692ee83bc2e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/54-dars_ООП_Cтатические_методы_Incapsulyatsiya.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/55-dars_ООП_Статические_методы_и_методы_класса_Vorislik.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/56-dars_ООП_Наследование,Создание_и_управление_поведением_экземпляров_класса.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/57-dars_ООП_Принципы_Проектирование_Классов_SOLID,Обзор проблем.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/58-dars_ООП_Интерфейс,Связанные_списки.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/59-dars_ООП_Классы,Перегрузка_операторов,Продолжения.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/60-dars_ООП_Перегрузка_операторов,Продолжение.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/61-dars_ООП_Полиморфизм,Функторы.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/62-dars_Модуллар_билан_ишлаш/62-dars_Модуль_pickle,Модуль_json.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/62-dars_Модуллар_билан_ишлаш/car/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/62-dars_Модуллар_билан_ишлаш/car/carclass.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/62-dars_Модуллар_билан_ишлаш/car/electrocar.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/62-dars_Модуллар_билан_ишлаш/geometry/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/62-dars_Модуллар_билан_ишлаш/geometry/rect.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/62-dars_Модуллар_билан_ишлаш/geometry/sq.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/62-dars_Модуллар_билан_ишлаш/geometry/trian.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/62-dars_Модуллар_билан_ишлаш/shape/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/62-dars_Модуллар_билан_ишлаш/shape/circle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/62-dars_Модуллар_билан_ишлаш/shape/cylinder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/62-dars_Модуллар_билан_ишлаш/shape/rectangle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/63-dars_Сериализатсия_и_десериализатсия,Строенные_модули_сериализатции,Модуль_pickle,Модуль_json.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/64-dars_Цели_и_задачи_модульного_тестирования,Практика,Request.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/65-dars_csv formatidagi_fayllar_bilan_ishlash.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/66-dars_Beautifulsoup4,Requests,Парсинг_сайтов.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/67-dars_Парсинг_сайта_продолжения,class_va_funcksiyalar_orqali_parsing_qilish/67-dars.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/67-dars_Парсинг_сайта_продолжения,class_va_funcksiyalar_orqali_parsing_qilish/parse.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/68-dars_MVC,articles/68-dars.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/68-dars_MVC,articles/Countries/controller.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/68-dars_MVC,articles/Countries/model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/68-dars_MVC,articles/Countries/project_manager.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/68-dars_MVC,articles/Countries/view.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/68-dars_MVC,articles/auto/controller.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/68-dars_MVC,articles/auto/model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/68-dars_MVC,articles/auto/project_aoto.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/68-dars_MVC,articles/auto/view.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/68-dars_MVC,articles/controller.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/68-dars_MVC,articles/model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/68-dars_MVC,articles/project_articles.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/68-dars_MVC,articles/view.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/27-dars_ShartliOperatorlar_va_UlarniSintaksis.py" beforeDir="false" afterPath="$PROJECT_DIR$/27-dars_ShartliOperatorlar_va_UlarniSintaksis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/29-dars_Ro'yxat(List).py" beforeDir="false" afterPath="$PROJECT_DIR$/29-dars_Ro'yxat(List).py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/35-dars_Chiziqlar(Строки).py" beforeDir="false" afterPath="$PROJECT_DIR$/35-dars_Chiziqlar(Строки),ASCII.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/36-dars_ChiziqlarMetodlari_(МетодыСтрок).py" beforeDir="false" afterPath="$PROJECT_DIR$/36-dars_ChiziqlarMetodlari_(МетодыСтрок),re_moduli.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/38-dars_Funksiyalar_FunksiyadegiLokalVaGlobalO'zgaruvchilar.py" beforeDir="false" afterPath="$PROJECT_DIR$/38-dars_Funksiyalar_FunksiyadegiLokalVaGlobalO'zgaruvchilar.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/40-dars_map()reduce()filter()zip()_Dekoratorlar.py" beforeDir="false" afterPath="$PROJECT_DIR$/40-dars_map()reduce()filter()zip()_Dekoratorlar.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/53-dars_Inkapsulyatsiya.py" beforeDir="false" afterPath="$PROJECT_DIR$/53-dars_OOП_Inkapsulyatsiya.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" />
-    </list>
+    <list default="true" id="001a0e22-9a4f-40d3-a74a-f692ee83bc2e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

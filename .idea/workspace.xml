@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="001a0e22-9a4f-40d3-a74a-f692ee83bc2e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/69-dars_SQLite_data_base(1-qism)/69-dars_Data_Base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/69-dars_SQLite_data_base(1-qism)/db_1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/69-dars_SQLite_data_base(1-qism)/db_2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/70-dars_SQLite_data_base(2qism)/70-dars.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/70-dars_SQLite_data_base(2qism)/sqlite_editor_commands" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/71-dars_SQLite_data_base_primary_and_foreign_keys,Функции_агрегирования(3-qism)/71-dars.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/71-dars_SQLite_data_base_primary_and_foreign_keys,Функции_агрегирования(3-qism)/db_3.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/71-dars_SQLite_data_base_primary_and_foreign_keys,Функции_агрегирования(3-qism)/Функции агрегирования" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/72-dars_SQLite_data_base_GROUP_BY_and_HEAVING/72-dars.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/73-dars/73-dars.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/68-dars_MVC,articles,socket_moduli/68-dars.py" beforeDir="false" afterPath="$PROJECT_DIR$/68-dars_MVC,articles,socket_moduli/Socket/Socket.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/68-dars_MVC,articles,socket_moduli/templates/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/68-dars_MVC,articles,socket_moduli/Socket/templates/blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/68-dars_MVC,articles,socket_moduli/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/68-dars_MVC,articles,socket_moduli/Socket/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/68-dars_MVC,articles,socket_moduli/view.py" beforeDir="false" afterPath="$PROJECT_DIR$/68-dars_MVC,articles,socket_moduli/Socket/view.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

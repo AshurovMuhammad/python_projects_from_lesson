@@ -1,0 +1,20 @@
+db_3.db faylidagi T1 chi jadvaldan foydalanib agregirovaniyani topaman
+Функции агрегирования
+
+1) T1 jadvaldagi xodimlar sonin chiqarish
+SELECT COUNT(FName) AS [Xodimlar Soni]
+FROM T1
+
+2) T1 jadvaldagi menegerlar sonini chiqarish
+SELECT COUNT(FName) AS [Menegerlar Soni]
+FROM T1
+WHERE Doljnost LIKE "Meneger"
+
+3) T1 jadvaldagi 600 va 800 oraliqdagi oyliklarni o'rta arifmetigini aniqlash
+SELECT AVG(ZP) AS [600 va 800 oraliqdagi o'rta qiymat]
+FROM T1
+WHERE ZP BETWEEN 600 AND 800
+
+4) T1 jadvaldagi eng baland oylikni chiqarib beradi
+SELECT MAX(ZP)
+FROM T1

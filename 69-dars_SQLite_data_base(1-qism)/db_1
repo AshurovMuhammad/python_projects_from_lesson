@@ -1,0 +1,131 @@
+
+
+ID	FName	Doljnost	ORab	ZP
+1	Abranenko	Menejer	0	1500
+2	Avdyuxa	Sekretar	0	740
+3	Butenko	Direktor	7	2560
+4	Butkov	Menejer	2	1200
+5	Vasilenko	Operator	6	970
+
+
+1) T1 dagi barcha ma'lumotlarni chiqarish
+SELECT *
+FROM T1
+
+2) Tashkilotdagi barcha xodimlarni doljnostini chiqarish
+SELECT Doljnost
+FROM T1
+
+3) Tashkilotegi birxil lavozimdegi ishchilarni faqat birinchi keganini olib qolganini olmedi
+SELECT DISTINCT Doljnost
+FROM T1
+
+4) Tashkilotdegi barcha xodimlarni Familiyasini va oyligini chiqarish
+SELECT FName, ZP
+FROM T1
+
+5) Tashkilotdegi barcha xodimlarni doljnost familiya va oyligini chiqarish
+SELECT Doljnost, FName, ZP
+FROM T1
+
+6) Tashkilotdegi xodimlarni uniqal oyligini chiqarish
+SELECT DISTINCT ZP
+FROM T1
+
+7) Faqatgina 5 yildan ortiq tajribaga ega bo'lgan xodimlarni Familiya va tajriba yilini chiqarish // WHERE
+SELECT FName, ORab
+FROM T1
+WHERE ORab > 5
+
+8) Faqatgina 3 yildan ortiq tajribaga ega bo'lgan va 700 dan past oylig oladigan xodimlarni Familiya va oyligini chiqarish
+SELECT FName, ZP
+FROM T1
+WHERE ORab > 3 AND ZP < 700;
+
+9) Xodimlar ro'yxatidan faqat Menejer va Direktorni Familiyasini chiqarish
+SELECT FName, Doljnost
+FROM T1
+WHERE Doljnost="Menejer" OR Doljnost='Direktor';
+
+10) Xodimlar ro'yxatiadan faqatgina 2000 dan kam oylig oladigan va 3 yildan ortik tajribaga ega bo'lgan Menejerni chiqarish
+SELECT FName, Doljnost
+FROM T1
+WHERE ZP<2000 AND ORab>3 AND Doljnost="Menejer";
+
+11) Ish haqqi 1000 dan 2100 orasida bo'lgan xodimlarni chiqarish // BETWEEN (NOT BETWEEN)
+SELECT *
+FROM T1
+WHERE ZP BETWEEN 1000 AND 2100
+
+12) Ish haqqi 1000 dan 2100 orasida bo'lmagan xodimlarni chiqarish (yuqoridegini teskarisi)
+SELECT *
+FROM T1
+WHERE ZP NOT BETWEEN 1000 AND 2100
+
+13) Familiyasi "Bu" so'zi bilan boshlanadigan barcha xodimlarni chiqarish // LIKE (NOT LIKE)
+SELECT *
+FROM T1
+WHERE FName LIKE "Bu%"
+
+14) Familiyasi oxiri "ov" so'zi bilan tugaydigan barcha xodimlarni chiqarish
+SELECT *
+FROM T1
+WHERE FName LIKE "%ov"
+
+15) Familiyasi bosh xarfi "A" yoki "V" harfi bilan boshlangan barcha xodimlarni chiqarish // GLOB
+SELECT *
+FROM T1
+WHERE FName GLOB "[AV]*"
+
+16) Familiyasi A - L harfilar oraligidagi xariflar bilan boshlangan familiyani chiqarish (A va L ham oraliqga kiradi)
+SELECT FName AS Familiya
+FROM T1
+WHERE FName GLOB "[A-L]*"
+
+17) Oyligi belgilanmagan xodimni chqarish // IS NULL
+SELECT FName, ORab
+FROM T1
+WHERE ZP IS NULL
+
+Home Work
+18) Menejerlarni oylik diapazonini chiqarish
+SELECT ZP
+FROM T1
+WHERE Doljnost="Menejer";
+
+19) Ish tajribasi 3 yilan kam bo'lgan operator oyligini chiqarish
+SELECT FName, ZP
+FROM T1
+WHERE Doljnost="Operator" AND ORab<3;
+
+20) Ish tajribasi 2 yildan ortiq bo'lgan Sekretar va Operatrlarni chiqarish
+SELECT FName, ZP
+FROM T1
+WHERE (Doljnost="Operator" OR Doljnost="Sekretar") AND ORab<2
+
+----------------------------------------------------------------------------
+Bazadagi ma'lumotlarni tartib bo'yicha chiqarish
+SELECT NAME
+FROM tabl_name
+ORDER BY ustun_nomi [ASC | DESC]  (ASC-o'sish(alfabit) tartibi bo'yicha, DESC-kamayish(alfabit tartibiga teskari) tartibda chiqaradi)
+
+
+SELECT NAME, Prod
+FROM ZAKAZ
+WHERE NAME GLOB "[S-L]*"
+ORDER BY NAME
+
+Useful
+SELECT NAME, SUM, KOD
+FROM ZAKAZ
+WHERE SUM > 1000 AND KOD IN (1008, 1001, 1005)
+
+SELECT NAME, KOD
+FROM ZAKAZ
+WHERE CITY2 IN ("Moskva", "Zelenograd", "Ximki")
+
+
+SELECT DISTINCT REM
+FROM ZAKAZ
+WHERE REM IS NOT NULL
+ORDER BY REM

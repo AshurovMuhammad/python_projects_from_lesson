@@ -1,0 +1,57 @@
+CNUM - kod klienta
+NAME - imya zakazchika
+CITY - gorod projivaniya klienta
+RATING - reyting kliyenta
+KOD - kod prodavsa (menegera)
+SUM - summa
+CITY2 - gorod kuda postavlyayut tovar
+Prod - tovar
+REM - remarka, primechaniye, poyasneniye
+
+====================================================================================
+1. Firma qaysi shaxarlarga tovar yetkazadi
+SELECT CITY2
+FROM ZAKAZ
+
+2. Zakazchilar qaysi shaxarlarda yashaydi
+SELECT CITY
+FROM ZAKAZ;
+
+3. 1005 KODI ORQALI QAYSI MENEJERGA ALOQAGA CHIQISH MUMKIN
+SELECT NAME
+FROM ZAKAZ
+WHERE KOD=1005
+
+4. 380 dan ortiq reytinga ega bo'lgan zakazchilar ro'yxatini chiqarish
+SELECT NAME
+FROM ZAKAZ
+WHERE RATING > 380
+
+5. Remar5kada hech narsa deb yozmagan zakazchilarni chiqarish
+SELECT NAME
+FROM ZAKAZ
+WHERE REM IS NULL
+
+6. Zakazini umumiy summasi 4000 dan ortiq bo'lgan zakazchilarni chiqarish
+SELECT NAME
+FROM ZAKAZ
+WHERE SUM > 4000
+
+7. Zakazini umumiy summasi 1000dan kam bo'lgan va yashash joyi Irkutski bo'lmagan zakazchilarni chiqarish
+SELECT NAME
+FROM ZAKAZ
+WHERE SUM < 1000 AND CITY != "Irkutske"
+
+8. Reytingi 100 bilan 270 ni orasida bo'lgan zakazchilarni chiqarish
+SELECT NAME
+FROM ZAKAZ
+WHERE RATING BETWEEN 100 AND 270
+
+9. Yashash va yetkazib berish joyi birxil bo'lmagan zaakazchilarni Familiya, kod, yashash shaxarini chiqarish
+SELECT NAME, KOD, CITY, CITY2
+FROM ZAKAZ
+WHERE CITY != CITY2
+
+
+
+

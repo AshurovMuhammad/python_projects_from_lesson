@@ -1,0 +1,89 @@
+Jadvalga ma'lumot qo'shish
+Formula
+INSERT INTO имя_таблицы [ (вставляемый, список столбцов) ]
+SELECT список_столбцов
+FROM список_таблиц
+WHERE условие
+
+
+1) Jadvalga ma'lumot qo'shish
+xolat-1
+INSERT INTO T1
+VALUES (16, "Yushina", "Sekretar", 2, 1500)
+
+xolat-2
+INSERT INTO T1 (ID, Doljnost, ORab, ZP, FName)
+VALUES (17, "Oxranniki", 1, 2500, "Pavlov")
+
+xolat-3
+INSERT INTO T1 (ID, FName)
+VALUES (29, "Nikolayev")
+
+2) Bir jadvaldan boshqa jadvalga ma'lumotni ko'chirish
+INSERT INTO T1 (ID, FName, Doljnost, ORab, ZP)
+SELECT ID, FName, D, Orabot, Zp
+FROM T2
+WHERE ID LIKE 18;
+
+3) T2 dan T1 ga  IDsi>18 dan va IDsi<23 dan bo'lgan xodimlarni Id, Familiya, Doljnostini va ish tajribasini ko'chirish
+INSERT INTO T1 (ID, FName, Doljnost, ORab)
+SELECT ID, FName, D, Orabot
+FROM T2
+WHERE ID>18 AND ID<23
+
+4) T2 dan T1 ga IDsi>22 dan bo'lgan ishchi xodimlarni oyligini 10%ga kamaytirib, ish tajribasini 2 martda kamaytirib ko'chirish
+INSERT INTO T1 (ID, FName, Doljnost, ORab, ZP)
+SELECT ID, FName, D, Orabot/2, Zp*0.9
+FROM T2
+WHERE ID>22
+
+5) Yangi yaratib olgan T3 jadvalga T1 dan faqat Meneger va Direktorlarni ko'chirish
+INSERT INTO T3 (ID, FName, Doljnost, ORab, ZP)
+SELECT ID, FName, Doljnost, ORab, ZP
+FROM T1
+WHERE Doljnost IN ("Meneger", "Direktor")
+
+6) Yangi yaratib olgan T4 jadvalga T1 dan ish haqqi 1000 dan kam bo'lgan xodimlarni ish haqqiga 100 qo'shib T4 janvalga ko'chirish
+INSERT INTO T4 (ID, FName, Doljnost, ORab, ZP)
+SELECT ID, FName, Doljnost, ORab, ZP+100
+FROM T1
+WHERE ZP<1000
+
+===================================================================================================================================
+Jandvaldagi ma'lumotni o'zgartirish
+Formula
+UPDATE имя_таблицы
+SET столбец1=выражение1, столбец2=выражение2
+[WHERE условие]
+
+1) T1 jadvaldagi oyligi belgilanmagan va ish tajribasi 0dan ortiq bo'lgan xodimlarni oyligini 900 ga o'zgartirish
+UPDATE T1
+SET ZP=900
+WHERE ZP IS NULL AND Orab>0
+
+====================================================================================================================================
+Jandvaldagi ma'lumotni o'chirish
+Formula
+DELETE FROM имя_таблицы
+WHERE условие
+
+1) T1 jadvaldagi oyliklari belgilanmagan(NULL) xodimlarni bazadan o'chirish
+DELETE FROM T1
+WHERE ZP IS NULL
+
+2) T2 jadvaldagi barcha ma'lumotlarni o'chirish
+DELETE FROM T2
+
+====================================================================================================================================
+1) T1 Jadvaldegi xodimlarni 5 tasini chiqarish // LIMIT
+SELECT *
+FROM T1
+ORDER BY ID DESC
+LIMIT 5
+
+2) T1 jadvaldegi xodimni oxiridan 2 tasini tashab, so'ng 5 tasini chiqarish // LIMIT, OFFSET
+SELECT *
+FROM T1
+ORDER BY ID DESC
+LIMIT 5 OFFSET 2
+

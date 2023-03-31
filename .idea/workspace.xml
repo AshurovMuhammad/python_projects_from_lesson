@@ -2,26 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="001a0e22-9a4f-40d3-a74a-f692ee83bc2e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/68-dars_MVC,articles,socket_moduli/templates/blog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/68-dars_MVC,articles,socket_moduli/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/68-dars_MVC,articles,socket_moduli/view.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/69-dars_SQLite_data_base(1-qism)/69-dars_Data_Base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/69-dars_SQLite_data_base(1-qism)/db_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/69-dars_SQLite_data_base(1-qism)/db_2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/70-dars_SQLite_data_base(2qism)/70-dars.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/70-dars_SQLite_data_base(2qism)/sqlite_editor_commands" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/71-dars_SQLite_data_base_primary_and_foreign_keys,Функции_агрегирования(3-qism)/71-dars.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/71-dars_SQLite_data_base_primary_and_foreign_keys,Функции_агрегирования(3-qism)/db_3.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/71-dars_SQLite_data_base_primary_and_foreign_keys,Функции_агрегирования(3-qism)/Функции агрегирования" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/72-dars_SQLite_data_base_GROUP_BY_and_HEAVING/72-dars.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/73-dars/73-dars.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/68-dars_MVC,articles/68-dars.py" beforeDir="false" afterPath="$PROJECT_DIR$/68-dars_MVC,articles,socket_moduli/68-dars.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/68-dars_MVC,articles/Countries/controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/68-dars_MVC,articles,socket_moduli/Countries/controller.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/68-dars_MVC,articles/Countries/db_countries.txt" beforeDir="false" afterPath="$PROJECT_DIR$/68-dars_MVC,articles,socket_moduli/Countries/db_countries.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/68-dars_MVC,articles/Countries/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/68-dars_MVC,articles,socket_moduli/Countries/model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/68-dars_MVC,articles/Countries/project_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/68-dars_MVC,articles,socket_moduli/Countries/project_manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/68-dars_MVC,articles/Countries/view.py" beforeDir="false" afterPath="$PROJECT_DIR$/68-dars_MVC,articles,socket_moduli/Countries/view.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/68-dars_MVC,articles/auto/controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/68-dars_MVC,articles,socket_moduli/auto/controller.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/68-dars_MVC,articles/auto/db_autos.txt" beforeDir="false" afterPath="$PROJECT_DIR$/68-dars_MVC,articles,socket_moduli/auto/db_autos.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/68-dars_MVC,articles/auto/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/68-dars_MVC,articles,socket_moduli/auto/model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/68-dars_MVC,articles/auto/project_aoto.py" beforeDir="false" afterPath="$PROJECT_DIR$/68-dars_MVC,articles,socket_moduli/auto/project_aoto.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/68-dars_MVC,articles/auto/view.py" beforeDir="false" afterPath="$PROJECT_DIR$/68-dars_MVC,articles,socket_moduli/auto/view.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/68-dars_MVC,articles/controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/68-dars_MVC,articles,socket_moduli/articles/controller.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/68-dars_MVC,articles/db.txt" beforeDir="false" afterPath="$PROJECT_DIR$/68-dars_MVC,articles,socket_moduli/articles/db.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/68-dars_MVC,articles/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/68-dars_MVC,articles,socket_moduli/articles/model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/68-dars_MVC,articles/project_articles.py" beforeDir="false" afterPath="$PROJECT_DIR$/68-dars_MVC,articles,socket_moduli/articles/project_articles.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/68-dars_MVC,articles/view.py" beforeDir="false" afterPath="$PROJECT_DIR$/68-dars_MVC,articles,socket_moduli/articles/view.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/68-dars_MVC,articles,socket_moduli/68-dars.py" beforeDir="false" afterPath="$PROJECT_DIR$/68-dars_MVC,articles,socket_moduli/Socket/Socket.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/68-dars_MVC,articles,socket_moduli/templates/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/68-dars_MVC,articles,socket_moduli/Socket/templates/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/68-dars_MVC,articles,socket_moduli/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/68-dars_MVC,articles,socket_moduli/Socket/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/68-dars_MVC,articles,socket_moduli/view.py" beforeDir="false" afterPath="$PROJECT_DIR$/68-dars_MVC,articles,socket_moduli/Socket/view.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -52,17 +47,23 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/71-dars" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Python+Django Lessons\Python\71-dars" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Python+Django Lessons\Python\71-dars" />
+      <recent name="E:\Python+Django Lessons\Python\69-dars" />
+      <recent name="E:\Python+Django Lessons\Python" />
+      <recent name="E:\Python+Django Lessons\Python\68-dars_MVC,articles,socket_moduli\Socket" />
       <recent name="E:\Python+Django Lessons\Python\68-dars_MVC,articles,socket_moduli\articles" />
-      <recent name="E:\Python+Django Lessons\Python\articles" />
-      <recent name="E:\Python+Django Lessons\Python\67-dars" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.68-dars (1)">
-    <configuration name="68-dars (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.73-dars">
+    <configuration name="70-dars" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -70,11 +71,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/68-dars_MVC,articles,socket_moduli" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/70-dars_SQLite_data_base(2qism)" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/68-dars_MVC,articles,socket_moduli/68-dars.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/70-dars_SQLite_data_base(2qism)/70-dars.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -83,7 +84,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="68-dars" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="71-dars (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -91,11 +92,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/68-dars_MVC,articles" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/71-dars" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/68-dars_MVC,articles/68-dars.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/71-dars/71-dars.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -104,7 +105,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="project_aoto" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="71-dars" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -112,11 +113,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/68-dars_MVC,articles/auto" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/68-dars_MVC,articles/auto/project_aoto.py" />
+      <option name="SCRIPT_NAME" value="E:\Python+Django Lessons\Python\71-dars\71-dars.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -125,7 +126,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="project_articles (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="72-dars" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -133,11 +134,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/68-dars_MVC,articles" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/72-dars" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/68-dars_MVC,articles/project_articles.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/72-dars/72-dars.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -146,7 +147,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="project_manager" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="73-dars" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -154,11 +155,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/68-dars_MVC,articles/Countries" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/73-dars" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/68-dars_MVC,articles/Countries/project_manager.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/73-dars/73-dars.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -169,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.68-dars (1)" />
-        <item itemvalue="Python.68-dars" />
-        <item itemvalue="Python.project_aoto" />
-        <item itemvalue="Python.project_manager" />
-        <item itemvalue="Python.project_articles (1)" />
+        <item itemvalue="Python.73-dars" />
+        <item itemvalue="Python.72-dars" />
+        <item itemvalue="Python.71-dars (1)" />
+        <item itemvalue="Python.71-dars" />
+        <item itemvalue="Python.70-dars" />
       </list>
     </recent_temporary>
   </component>
